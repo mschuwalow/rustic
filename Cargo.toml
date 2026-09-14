@@ -153,6 +153,39 @@ rustic_testing = { version = "0.4.1" }
 tar = "0.4.44"
 tempfile = "3.25"
 
+[patch.crates-io]
+opendal = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-core = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-layer-concurrent-limit = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-layer-logging = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-layer-retry = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-layer-throttle = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-layer-timeout = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-azblob = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-azdls = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-azfile = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-azure-common = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-b2 = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-cos = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-dropbox = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-fs = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-ftp = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-gcs = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-gdrive = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-ghac = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-http = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-ipmfs = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-obs = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-onedrive = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-oss = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-pcloud = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-s3 = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-sftp = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-swift = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-webdav = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-webhdfs = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+opendal-service-yandex-disk = { git = "https://github.com/mro68/opendal_fork", branch = "feat/opendal-pcloud-20260518" }
+
 [target.'cfg(not(windows))'.dependencies]
 libc = "0.2.180"
 
